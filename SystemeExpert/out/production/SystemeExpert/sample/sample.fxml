@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="678.0" prefWidth="876.0" style="-fx-background-color: #141D3C;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="282.0" layoutY="28.0" prefHeight="43.0" prefWidth="311.0" text="Medical system expert" textFill="#46b897">
+         <font>
+            <Font name="Comic Sans MS Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="395.0" text="Diagnostique" textFill="#566ccf">
+         <font>
+            <Font name="Comic Sans MS" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="155.0" prefHeight="27.0" prefWidth="271.0" text="Veuillez cocher vos symptômes" textFill="#566ccf">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Fait1" layoutX="92.0" layoutY="195.0" mnemonicParsing="false" onAction="#Fait1checked" prefHeight="18.0" prefWidth="64.0" text="Fièvre" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait2" layoutX="92.0" layoutY="232.0" mnemonicParsing="false" onAction="#Fait2checked" prefHeight="18.0" prefWidth="64.0" text="Toux" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait3" layoutX="92.0" layoutY="272.0" mnemonicParsing="false" onAction="#Fait3checked" prefHeight="20.0" prefWidth="81.0" text="Fatigue" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait4" layoutX="92.0" layoutY="310.0" mnemonicParsing="false" onAction="#Fait4checked" prefHeight="20.0" prefWidth="82.0" text="Diarrhée" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait5" layoutX="353.0" layoutY="193.0" mnemonicParsing="false" onAction="#Fait5checked" prefHeight="20.0" prefWidth="154.0" text="Douleur thoracique" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait6" layoutX="353.0" layoutY="230.0" mnemonicParsing="false" onAction="#Fait6checked" prefHeight="20.0" prefWidth="210.0" text="Perte de l'odorat ou du goût" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait7" layoutX="353.0" layoutY="270.0" mnemonicParsing="false" onAction="#Fait7checked" prefHeight="20.0" prefWidth="163.0" text="Douleurs musculaires" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait8" layoutX="353.0" layoutY="307.0" mnemonicParsing="false" onAction="#Fait8checked" prefHeight="20.0" prefWidth="130.0" text="Malaise général" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait9" layoutX="659.0" layoutY="195.0" mnemonicParsing="false" onAction="#Fait9checked" prefHeight="20.0" prefWidth="113.0" text="Essoufflement" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait10" layoutX="659.0" layoutY="232.0" mnemonicParsing="false" onAction="#Fait10checked" prefHeight="20.0" prefWidth="114.0" text="Maux de tête" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="Fait11" layoutX="659.0" layoutY="272.0" mnemonicParsing="false" onAction="#Fait11checked" prefHeight="20.0" prefWidth="114.0" text="Mal de gorge" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="659.0" layoutY="307.0" mnemonicParsing="false" onAction="#Fait11checked" prefHeight="20.0" prefWidth="106.0" text="Congestion" textFill="#e8ebec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="66.0" layoutY="87.0" prefHeight="27.0" prefWidth="791.0" text="Bienvenue à notre système de diagnostique médical, La santé connectée, pour vous simplifier la vie" textFill="#e8ebec">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <TextFlow fx:id="Diagnostique" layoutX="95.0" layoutY="439.0" prefHeight="200.0" prefWidth="667.0" style="-fx-background-color: #6B88FE;" />
+      <Button fx:id="button" layoutX="672.0" layoutY="348.0" mnemonicParsing="false" onAction="#buttonChecked" text="Commencer" />
+   </children>
+</AnchorPane>
